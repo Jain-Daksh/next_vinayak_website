@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Script from "next/script"
-
+import '../design/common.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../design/navbar.css'
 import '../design/about.css'

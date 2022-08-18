@@ -16,7 +16,7 @@ function HomePage() {
       <div className="carousel-inner">
         <div className="carousel-item active">
 
-          <Image src={Image1} alt="logo" className='d-block imagecarousel' style={{width: '50%'}}></Image>
+          <Image src={Image1} alt="logo" className='d-block imagecarousel' ></Image>
           <div className="carousel-caption">
             <h1>District Eight</h1>
             <h1> Fabric</h1>
@@ -24,7 +24,7 @@ function HomePage() {
           </div>
         </div>
         <div className="carousel-item">
-        <Image src={Image2} alt="logo" className='d-block imagecarousel' style={{width: '58%'}}></Image>
+        <Image src={Image2} alt="logo" className='d-block imagecarousel' ></Image>
           <div className="carousel-caption">
             <h1>District Eight</h1>
             <h1>Stool</h1>
