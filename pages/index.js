@@ -26,6 +26,7 @@ export default function Home() {
     <NewArrivals />
     <Info />
     <Images />
+    <Contactus />
     <FooterWebsite />
     <Footer />
   </div>
