@@ -1,0 +1,24 @@
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  left: 60%;
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+}
+.carouselslide{
+  background-color: #F5E5D7;
+}
+
+.imagecarousel{
+  margin: 5%;
+  height: fit-content;
+  width: 50%;
+}
+
+.buttoncrousel{
+  background-color: #FDF3F1;
+  color: black;
+  font-size: 18px;
+}

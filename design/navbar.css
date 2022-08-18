@@ -1,7 +1,21 @@
-.navbar-light .navbar-brand {
+.logo{
+  height: 80px;
+  width: 80px;
   
-  color: white !important;
 }
-#navbar-2{
-  background-color: white !important;
+
+
+.navbar li{
+  display:inline-block;
+  
+}
+.navbar{
+  background-color: #F5E5D7 !important;
+}
+.nav-link{
+  font-size: large;
+  font-weight: bold;
+}
+.navbar a {
+  color: black !important;
 }

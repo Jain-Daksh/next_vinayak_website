@@ -1,38 +1,39 @@
 import React from 'react'
-import { Nav, Button , Container } from 'react-bootstrap';
+import { Nav, Button, Container } from 'react-bootstrap';
 import Image from 'next/image';
-import Image1 from '../public/logo.png'
+import Image1 from '../public/output-onlinepngtools.png'
 function Navbar() {
   return (
     <div>
-    <Nav class="navbar navbar-expand-lg navbar-light bg-light" id='navbar-2'>
-    <Image
-                src={Image1}
-                alt="Abc logo"
-                className="logo"
-                width="150"
-                height="150"
-              />
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-
-      </ul>
-    </div>
-  </Nav>
-    </div>
+      <Nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar-2">
+        <div className="container-fluid">
+          <Image src={Image1} className="logo" width="80"
+                height="80"></Image>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about">About us</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#product">Products</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">Contact</a>
+            </li>
+          </div>
+        </div>
+      </Nav>
+    </div >
   )
 }
 
 export default Navbar
+
+
+
