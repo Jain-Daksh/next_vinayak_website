@@ -14,21 +14,21 @@ import FooterWebsite from '../components/Footer-website'
 import Footer from '../components/Footer'
 export default function Home() {
   return (
-  <div>
-    <Head>
-      <title></title>
-    </Head>
-    <Navbar />
-    <HomePage />
-    <AboutUs />
-    <Product />
-    <Whyus />
-    <NewArrivals />
-    <Info />
-    <Images />
-    <Contactus />
-    <FooterWebsite />
-    <Footer />
-  </div>
+    <div>
+      <Head>
+        <title>Vinayak Steel Furniture</title>
+      </Head>
+      <Navbar />
+      <HomePage />
+      <AboutUs />
+      <Product />
+      <Whyus />
+      <NewArrivals />
+      <Info />
+      <Images />
+      <Contactus />
+      <FooterWebsite />
+      <Footer />
+    </div>
   )
 }

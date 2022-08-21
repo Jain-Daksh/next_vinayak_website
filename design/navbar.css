@@ -38,3 +38,13 @@
 .my-float{
 	margin-top:17px;
 }
+
+.navbarheader{
+	margin: 0% !important;
+	
+}
+
+.navbar-collapse{
+	padding-left: 1%;
+	padding-right: 1%;
+}
